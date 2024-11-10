@@ -1,0 +1,19 @@
+#ex 1
+
+grade = int(input("Enter your grade: "))
+if grade >= 0 and grade <= 100:
+    if grade >= 75:
+        print("Passed")
+    else:
+        print("Failed")
+else:
+    print("Invalid grade") 
+    
+#ex 2
+num = int(input("Enter a number: "))
+if num == 0:
+    print("number is zero")
+elif num  % 2 == 0:
+    print("The number is even!")
+else:
+    print("The number is odd")

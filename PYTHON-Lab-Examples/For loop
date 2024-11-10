@@ -1,0 +1,50 @@
+"""1. Output will be:
+b
+a
+n
+a
+n
+a
+
+h
+o
+t
+d
+o
+g"""
+
+for x in "banana":
+  print(x) 
+
+print("")
+
+for y in "hotdog":
+	print(y)
+
+#2 Output will be 0-9 
+ for y in range(10):
+	print(y)
+
+#3 Output will be 2, 5, 8, 11, 14, 17, 20, 23, 26, 29
+for x in range(2, 30, 3): #number 3 serves as the increment, meaning it will add to 3
+  print(x) 
+
+#Nested loops
+color = ["blue", "yellow", "pink"]
+cars = ["bmw", "volkswagen", "mercedes benz"]
+
+for y in color:
+  for w in cars:
+    print(y, w)
+
+#USER INPUT
+n = int(input("Enter a number: "))
+i = 1
+while i < n:
+    print(i)
+    i += 1
+
+#example for loop
+n = int(input("Enter a number: "))
+for i in range(1, n):
+    print(i)

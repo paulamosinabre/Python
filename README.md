@@ -2,7 +2,6 @@
 ###### About
 These are the laboratory activities and lessons that we did on National University-Dasmarinas. It also contains some of my personal coding practices to be more familiar with Python.
 
-<br/>
 ## Learning Resources
 Here are additional learning resources that helped me to learn python:
 <p align="left">
